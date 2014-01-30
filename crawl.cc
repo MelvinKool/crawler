@@ -135,7 +135,6 @@ int main()
 	//cout<<"Enter url"<<endl<<">>";
 	//cin>>URL;
 	//cout<<"Enter format"<<endl<<">>";
-	//cin>>format;
 	//--------------------------------------------------
 	//Links not to crawl
 	dont.push_back("https://archive.org/details/movies");
