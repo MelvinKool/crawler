@@ -33,8 +33,7 @@ string getContents(string URL)
 }
 bool isRelative(string link)
 {
-	if(link.substr(0,4)!="http") return true;
-	else return false;
+	return link.substr(0,4)!="http";
 }
 bool isFile(string link,string format)
 {
